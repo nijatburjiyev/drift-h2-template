@@ -19,6 +19,9 @@ dependencies {
 	implementation 'com.fasterxml.jackson.core:jackson-core'
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
 
+	// Apache HttpClient for SSL-aware RestTemplate
+	implementation 'org.apache.httpcomponents.client5:httpclient5'
+
 	compileOnly   'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
