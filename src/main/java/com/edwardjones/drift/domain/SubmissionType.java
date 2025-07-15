@@ -2,22 +2,26 @@ package com.edwardjones.drift.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Data
+@EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
-public class SubmissionType {
+public class SubmissionType extends AuditFields {
     @Id
     private Long id;
 
     private String name;
 
+    @Lob
     @Column(columnDefinition = "CLOB")
     private String description;
 
+    @Lob
     @Column(columnDefinition = "CLOB")
     private String helpText;
 

@@ -9,9 +9,9 @@ import java.util.Set;
 @Entity
 @Table(name = "groups")
 @Data
-@EqualsAndHashCode(exclude = {"users"})
+@EqualsAndHashCode(exclude = {"users"}, callSuper = false)
 @ToString(exclude = {"users"})
-public class Group {
+public class Group extends AuditFields {
     @Id
     @Column(name = "group_name")
     private String groupName;

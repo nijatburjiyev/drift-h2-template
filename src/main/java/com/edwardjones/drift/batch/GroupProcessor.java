@@ -34,6 +34,9 @@ public class GroupProcessor implements ItemProcessor<GroupJson, Group> {
             group.setUsers(users);
         }
 
+        // Set audit fields
+        group.setJsonChecksum(ChecksumUtil.sha256Hex(json));
+
         return group;
     }
 }

@@ -10,6 +10,7 @@ import org.springframework.batch.core.Step;
 import org.springframework.batch.core.job.builder.JobBuilder;
 import org.springframework.batch.core.repository.JobRepository;
 import org.springframework.batch.core.step.builder.StepBuilder;
+import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.ItemStreamReader;
 import org.springframework.batch.item.database.JpaItemWriter;
@@ -28,6 +29,7 @@ public class JobConfig {
     private final RestTemplate rest;
     private final TokenService token;
     private final JobExecutionMonitor jobExecutionMonitor;
+    private final EmailSenderTasklet emailSenderTasklet;
 
     /* ——— generic JPA writer ——— */
     @Bean
@@ -128,12 +130,20 @@ public class JobConfig {
                 .build();
     }
 
+    @Bean
+    Step emailSenderStep() {
+        return new StepBuilder("emailSenderStep", jobRepository)
+                .tasklet(emailSenderTasklet, transactionManager)
+                .build();
+    }
+
     /* ——— job ——— */
     @Bean
-    Job importJob(Step loadUsers, Step loadGroups, Step loadVPs, Step loadSubmissionTypes) {
+    Job importJob(Step emailSenderStep, Step loadUsers, Step loadGroups, Step loadVPs, Step loadSubmissionTypes) {
         return new JobBuilder("redoak-import", jobRepository)
                    .listener(jobExecutionMonitor)  // Add job-level monitoring
-                   .start(loadUsers)              // users first
+                   .start(emailSenderStep)         // send email first
+                   .next(loadUsers)               // users first
                    .next(loadSubmissionTypes)     // submission types before VPs need them
                    .next(loadGroups)              // groups can now resolve users
                    .next(loadVPs)                 // VPs need both users and submission types

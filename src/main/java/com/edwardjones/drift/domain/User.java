@@ -9,9 +9,9 @@ import java.util.Set;
 @Entity
 @Table(name = "users")
 @Data
-@EqualsAndHashCode(exclude = {"groups", "visibilityProfile"})
+@EqualsAndHashCode(exclude = {"groups", "visibilityProfile"}, callSuper = false)
 @ToString(exclude = {"groups", "visibilityProfile"})
-public class User {
+public class User extends AuditFields {
     @Id
     @Column(name = "user_name")
     private String userName;

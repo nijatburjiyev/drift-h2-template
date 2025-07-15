@@ -1,0 +1,36 @@
+[
+  {
+    "id": 6362,
+    "name": "Coffee Club Seminar Information Session (US Field)",
+    "active": true,
+    "initialState": "Draft",
+    "priority": 0,
+    "approvedStates": [
+      "Approved",
+      "Completed"
+    ],
+    "formats": [
+      "Installation Commander Approval Form"
+    ],
+    "description": "Coffee Club, Seminar, or Information Session Speaking Engagement Submissions",
+    "helpText": "<span id=\"isPasted\" style=\"font-size: 12pt;\">»<strong>Important</strong>: <span style=\"background-color: rgb(251, 229, 113);\">Approval is required <strong>before sending invitations and the event taking place</strong>.</span></span><br><br>Request to obtain Compliance approval for a speaking engagement/seminar event.<ul><li>To determine whether Speaking Engagement Approval is required or to read the instructions for completing the form, review <a href=\"http://ejprod.sharepoint.com/sites/JL-US-BR-Compliance-and-Regulatory-Site/SitePages/WEB558367.aspx\" target=\"_blank\" rel=\"noopener noreferrer\"></a><span style=\"color: rgb(36, 156, 184);\"><a href=\"http://ejprod.sharepoint.com/sites/JL-US-BR-Compliance-and-Regulatory-Site/SitePages/WEB558367.aspx\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Obtaining Compliance Approval for Marketing Events</strong></a></span>.</li><li>See Seminars: <a href=\"http://ejprod.sharepoint.com/sites/JL-US-BR-Seminars-and-Speaking-Engagements/SitePages/WEB063073.aspx\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Frequently Asked Questions</strong></a> for more information.</li><li style=\"font-weight: bold;\"><strong>Allow a minimum of 5 business days from the time your request is submitted for your request to be reviewed. <em>This does not guarantee approval will be provided</em>.</strong></li></ul><strong><span style=\"font-size: 12pt;\">»Are you or your team presenting with any other Financial Advisors?</span></strong><ul><li>If so, then ensure all presenters at Edward Jones are included within the On Behalf Of field so they can see this submission for their record. <strong><br></strong></li></ul>"
+  },
+  {
+    "id": 6583,
+    "name": "Public Appearance (US Home Office)",
+    "active": true,
+    "initialState": "Draft",
+    "priority": 0,
+    "approvedStates": [
+      "Approved"
+    ],
+    "formats": [
+      "GP Confirmation",
+      "Other",
+      "Presentation Material",
+      "Talking Points"
+    ],
+    "description": "Request to obtain approval for an interview with a TV, Radio, Newspaper, Podcast, Magazine outlet or to participate in a panel discussion.",
+    "helpText": "»The standard review time is&nbsp;<strong>5 business days</strong> and approval is not guaranteed. &nbsp;Plan accordingly when submitting items for review.<br><br>»Approval is&nbsp;<strong>not&nbsp;</strong>guaranteed.<br>&nbsp;<br>»The Interview Request form is for requesting approval to participate in a media interview or panel discussions.<ul><li><strong>Examples of media interviews include,</strong> but are not limited to a TV, Radio, Newspaper, Blog, Podcast, Magazine outlet interviews.</li><li><strong>Example of a Panel Discussion includes</strong> being asked to be part of a group to discuss specific topics related to your area of business in front of an audience.</li></ul>Public appearances where members of the media are likely to be present require approval from the Enterprise Comms Review.<br><br>Questions?<ul><li>To contact Enterprise Comms Review with questions specific to Media Interviews and this form, email MediaHotline.</li><li>Already submitted items - send a Service Request to Compliance Communication Reviews and Education (CRE).</li><li>General policy and process questions - contact Compliance Service at #40.</li></ul>"
+  }
+]

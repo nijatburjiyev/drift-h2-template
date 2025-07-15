@@ -58,6 +58,9 @@ public class UserProcessor implements ItemProcessor<UserJson, User> {
             vpRepo.findById(json.visibilityProfile()).ifPresent(user::setVisibilityProfile);
         }
 
+        // Set audit fields
+        user.setJsonChecksum(ChecksumUtil.sha256Hex(json));
+
         // Don't handle group relationships here - let the groups manage the relationships
         // This avoids potential circular dependency issues
 

@@ -35,10 +35,11 @@ public class VisibilityProfileProcessor implements ItemProcessor<VisibilityProfi
             Set<VpGroupLink> onBehalfOfGroups = new HashSet<>();
             for (VisibilityProfileJson.GroupWithUsers groupWithUsers : json.onBehalfOfGroups()) {
                 VpGroupLink link = new VpGroupLink();
-                link.setVisibilityProfile(vp);
+                link.setVisibilityProfileName(vp.getName());
                 link.setGroupName(groupWithUsers.groupName());
                 link.setLinkType("ON_BEHALF_OF");
                 link.setActive(groupWithUsers.active());
+                link.setVisibilityProfile(vp);
                 onBehalfOfGroups.add(link);
             }
             vp.setOnBehalfOfGroups(onBehalfOfGroups);
@@ -49,10 +50,11 @@ public class VisibilityProfileProcessor implements ItemProcessor<VisibilityProfi
             Set<VpGroupLink> canViewGroups = new HashSet<>();
             for (VisibilityProfileJson.GroupWithUsers groupWithUsers : json.canViewSubmissionsForGroups()) {
                 VpGroupLink link = new VpGroupLink();
-                link.setVisibilityProfile(vp);
+                link.setVisibilityProfileName(vp.getName());
                 link.setGroupName(groupWithUsers.groupName());
                 link.setLinkType("CAN_VIEW");
                 link.setActive(groupWithUsers.active());
+                link.setVisibilityProfile(vp);
                 canViewGroups.add(link);
             }
             vp.setCanViewSubmissionsForGroups(canViewGroups);
@@ -67,6 +69,9 @@ public class VisibilityProfileProcessor implements ItemProcessor<VisibilityProfi
             }
             vp.setCanViewSubmissionTypes(submissionTypes);
         }
+
+        // Set audit fields
+        vp.setJsonChecksum(ChecksumUtil.sha256Hex(json));
 
         return vp;
     }

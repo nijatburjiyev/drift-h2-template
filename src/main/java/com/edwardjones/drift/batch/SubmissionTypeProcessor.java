@@ -31,6 +31,9 @@ public class SubmissionTypeProcessor implements ItemProcessor<SubmissionTypeJson
             submissionType.setFormats(new ArrayList<>(json.formats()));
         }
 
+        // Set audit fields
+        submissionType.setJsonChecksum(ChecksumUtil.sha256Hex(json));
+
         return submissionType;
     }
 }
