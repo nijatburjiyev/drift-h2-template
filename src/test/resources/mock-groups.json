@@ -1,0 +1,385 @@
+[
+  {
+    "groupName": "Speaking Engagement Submitters",
+    "users": [
+      {
+        "name": "Allison Garey",
+        "emailAddress": "allison.garey@edwardjones.com",
+        "userName": "allison.garey"
+      },
+      {
+        "name": "Anand Nadgire",
+        "emailAddress": "AnandRajkumar.Nadgire@edwardjones.com",
+        "userName": "Anand.Nadgire"
+      },
+      {
+        "name": "Bill Consoli",
+        "emailAddress": "Bill.Consoli@edwardjones.com",
+        "userName": "Bill.Consoli"
+      },
+      {
+        "name": "Cara Wrenn",
+        "emailAddress": "cara.wrenn@edwardjones.com",
+        "userName": "cara.wrenn"
+      },
+      {
+        "name": "Christine Woznicki",
+        "emailAddress": "Christine.Woznicki@edwardjones.com",
+        "userName": "Christine.Woznicki"
+      },
+      {
+        "name": "Dami Adegboyega",
+        "emailAddress": "Dami.Adegboyega@edwardjones.com",
+        "userName": "Dami.Adegboyega"
+      },
+      {
+        "name": "David Hunter",
+        "emailAddress": "david.hunter@edwardjones.com",
+        "userName": "david.hunter"
+      },
+      {
+        "name": "Jignasha Solanki (P#)",
+        "emailAddress": "jignasha.solanki@edwardjones.com",
+        "userName": "jignasha.solanki"
+      },
+      {
+        "name": "Jignasha US Field Submitter",
+        "emailAddress": "jignasha.solanki@edwardjones.com",
+        "userName": "Test_USSubmitter1"
+      },
+      {
+        "name": "Kelly Recinos",
+        "emailAddress": "kelly.lukasik@edwardjones.com",
+        "userName": "kelly.recinos"
+      },
+      {
+        "name": "Lisa Monachella",
+        "emailAddress": "lisa.monachella@edwardjones.com",
+        "userName": "lisa.monachella"
+      },
+      {
+        "name": "Mary Lou Olton",
+        "emailAddress": "marylou.olton@edwardjones.com",
+        "userName": "marylou.olton"
+      },
+      {
+        "name": "Michael Davis (FA# 123)",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "mdavis"
+      },
+      {
+        "name": "Michael Moskowitz",
+        "emailAddress": "michael.moskowitz@edwardjones.com",
+        "userName": "michael.moskowitz"
+      },
+      {
+        "name": "Nathan Ganousis",
+        "emailAddress": "nathan.ganousis@edwardjones.com",
+        "userName": "nathan.ganousis"
+      },
+      {
+        "name": "Nicholas Pieri",
+        "emailAddress": "nicholas.pieri@edwardjones.com",
+        "userName": "nicholas.pieri"
+      },
+      {
+        "name": "Nicole Bascombe",
+        "emailAddress": "nicole.bascombe@edwardjones.com",
+        "userName": "nicole.bascombe"
+      },
+      {
+        "name": "Nijat Burjiyev",
+        "emailAddress": "nijat.burjiyev@edwardjones.com",
+        "userName": "nijat.burjiyev"
+      },
+      {
+        "name": "Preetham Parthasarathi",
+        "emailAddress": "preetham.parthasarathi@edwardjones.com",
+        "userName": "preetham.parthasarathi"
+      },
+      {
+        "name": "Shamarrie Wilson",
+        "emailAddress": "Shamarrie.Wilson@edwardjones.com",
+        "userName": "Shamarrie.Wilson"
+      },
+      {
+        "name": "Steve Fraser",
+        "emailAddress": "steve.fraser@edwardjones.com",
+        "userName": "steve.fraser"
+      },
+      {
+        "name": "Tapish Baronia",
+        "emailAddress": "Tapish.Baronia@edwardjones.com",
+        "userName": "Tapish.Baronia"
+      },
+      {
+        "name": "Test Submitter",
+        "emailAddress": "Julia.Meder@edwardjones.com",
+        "userName": "TestSubmitter_Julia"
+      },
+      {
+        "name": "Test Submitter",
+        "emailAddress": "Jasmine.Turner@edwardjones.com",
+        "userName": "TestSubmitter_Jasmine"
+      },
+      {
+        "name": "Test Bernie Gapinski",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TEST_Gapinski,Bernie"
+      },
+      {
+        "name": "Test Doug Cahill",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TEST_Cahill,Doug"
+      },
+      {
+        "name": "Test Kurt Stein (P126259)",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TEST_Stein,Kurt"
+      },
+      {
+        "name": "Test Roxanne McFadden",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TEST_McFadden,Roxanne"
+      },
+      {
+        "name": "Test Samantha Cassidy",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TEST_Cassidy,Samantha"
+      },
+      {
+        "name": "Test_BOA1 Test_BOA1",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_BOA1"
+      },
+      {
+        "name": "Test_BOA2 Test_BOA2",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_BOA2"
+      },
+      {
+        "name": "Test_BOA4 Test_BOA4",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_BOA4"
+      },
+      {
+        "name": "Test_FA_RegionB Test_FA_RegionB",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_FA_RegionB"
+      },
+      {
+        "name": "Test_FA1 Test_FA1",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_FA1"
+      },
+      {
+        "name": "Test_FA11 Test_FA11",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_FA11"
+      },
+      {
+        "name": "Test_FA2 Test_FA2",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "Test_FA2"
+      },
+      {
+        "name": "TestUser1 FA",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TestUser1"
+      },
+      {
+        "name": "Thomas Moore",
+        "emailAddress": "thomas.moore@edwardjones.com",
+        "userName": "thomas.moore"
+      },
+      {
+        "name": "Tracy Liu",
+        "emailAddress": "tracy.liu@edwardjones.com",
+        "userName": "tracy.liu"
+      },
+      {
+        "name": "Trentin Diaz",
+        "emailAddress": "trentin.diaz@edwardjones.com",
+        "userName": "trentin.diaz"
+      },
+      {
+        "name": "William Lemon",
+        "emailAddress": "william.lemon@edwardjones.com",
+        "userName": "william.lemon"
+      },
+      {
+        "name": "Zachary Chervitz",
+        "emailAddress": "Zachary.Chervitz@edwardjones.com",
+        "userName": "Zachary.Chervitz"
+      }
+    ],
+    "active": true
+  },
+  {
+    "groupName": "CRE Team",
+    "groupDescription": "Compliance Reviewers",
+    "users": [
+      {
+        "name": "Allison Garey",
+        "emailAddress": "allison.garey@edwardjones.com",
+        "userName": "allison.garey"
+      },
+      {
+        "name": "Anand Nadgire",
+        "emailAddress": "AnandRajkumar.Nadgire@edwardjones.com",
+        "userName": "Anand.Nadgire"
+      },
+      {
+        "name": "Bill Consoli",
+        "emailAddress": "Bill.Consoli@edwardjones.com",
+        "userName": "Bill.Consoli"
+      },
+      {
+        "name": "Cara Wrenn",
+        "emailAddress": "cara.wrenn@edwardjones.com",
+        "userName": "cara.wrenn"
+      },
+      {
+        "name": "Christine Woznicki",
+        "emailAddress": "Christine.Woznicki@edwardjones.com",
+        "userName": "Christine.Woznicki"
+      },
+      {
+        "name": "Dami Adegboyega",
+        "emailAddress": "Dami.Adegboyega@edwardjones.com",
+        "userName": "Dami.Adegboyega"
+      },
+      {
+        "name": "David Hunter",
+        "emailAddress": "david.hunter@edwardjones.com",
+        "userName": "david.hunter"
+      },
+      {
+        "name": "Jignasha Solanki (P#)",
+        "emailAddress": "jignasha.solanki@edwardjones.com",
+        "userName": "jignasha.solanki"
+      },
+      {
+        "name": "Kelly Recinos",
+        "emailAddress": "kelly.lukasik@edwardjones.com",
+        "userName": "kelly.recinos"
+      },
+      {
+        "name": "Lisa Monachella",
+        "emailAddress": "lisa.monachella@edwardjones.com",
+        "userName": "lisa.monachella"
+      },
+      {
+        "name": "Mary Lou Olton",
+        "emailAddress": "marylou.olton@edwardjones.com",
+        "userName": "marylou.olton"
+      },
+      {
+        "name": "Michael Davis (FA# 123)",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "mdavis"
+      },
+      {
+        "name": "Michael Moskowitz",
+        "emailAddress": "michael.moskowitz@edwardjones.com",
+        "userName": "michael.moskowitz"
+      },
+      {
+        "name": "Nathan Ganousis",
+        "emailAddress": "nathan.ganousis@edwardjones.com",
+        "userName": "nathan.ganousis"
+      },
+      {
+        "name": "Nicholas Pieri",
+        "emailAddress": "nicholas.pieri@edwardjones.com",
+        "userName": "nicholas.pieri"
+      },
+      {
+        "name": "Nicole Bascombe",
+        "emailAddress": "nicole.bascombe@edwardjones.com",
+        "userName": "nicole.bascombe"
+      },
+      {
+        "name": "Nijat Burjiyev",
+        "emailAddress": "nijat.burjiyev@edwardjones.com",
+        "userName": "nijat.burjiyev"
+      },
+      {
+        "name": "Preetham Parthasarathi",
+        "emailAddress": "preetham.parthasarathi@edwardjones.com",
+        "userName": "preetham.parthasarathi"
+      },
+      {
+        "name": "Shamarrie Wilson",
+        "emailAddress": "Shamarrie.Wilson@edwardjones.com",
+        "userName": "Shamarrie.Wilson"
+      },
+      {
+        "name": "Steve Fraser",
+        "emailAddress": "steve.fraser@edwardjones.com",
+        "userName": "steve.fraser"
+      },
+      {
+        "name": "Tapish Baronia",
+        "emailAddress": "Tapish.Baronia@edwardjones.com",
+        "userName": "Tapish.Baronia"
+      },
+      {
+        "name": "Test US CRE Reviewer",
+        "emailAddress": "jignasha.solanki@edwardjones.com",
+        "userName": "Test_USCRE1"
+      },
+      {
+        "name": "Test US_CRE_1",
+        "emailAddress": "tracy.liu@edwardjones.com",
+        "userName": "US_CRE_1"
+      },
+      {
+        "name": "Test US_CRE_2",
+        "emailAddress": "tracy.liu@edwardjones.com",
+        "userName": "US_CRE_2"
+      },
+      {
+        "name": "Test US_CRE_3",
+        "emailAddress": "nijat.burjiyev@edwardjones.com",
+        "userName": "US_CRE_3"
+      },
+      {
+        "name": "Test US_CRE_4",
+        "emailAddress": "nijat.burjiyev@edwardjones.com",
+        "userName": "US_CRE_4"
+      },
+      {
+        "name": "TestCRE1 CRE Reviewer",
+        "emailAddress": "mdavis@redoakcompliance.com",
+        "userName": "TestCRE1"
+      },
+      {
+        "name": "Thomas Moore",
+        "emailAddress": "thomas.moore@edwardjones.com",
+        "userName": "thomas.moore"
+      },
+      {
+        "name": "Tracy Liu",
+        "emailAddress": "tracy.liu@edwardjones.com",
+        "userName": "tracy.liu"
+      },
+      {
+        "name": "Trentin Diaz",
+        "emailAddress": "trentin.diaz@edwardjones.com",
+        "userName": "trentin.diaz"
+      },
+      {
+        "name": "William Lemon",
+        "emailAddress": "william.lemon@edwardjones.com",
+        "userName": "william.lemon"
+      },
+      {
+        "name": "Zachary Chervitz",
+        "emailAddress": "Zachary.Chervitz@edwardjones.com",
+        "userName": "Zachary.Chervitz"
+      }
+    ],
+    "active": true
+  }
+]

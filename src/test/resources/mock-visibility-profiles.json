@@ -1,0 +1,292 @@
+[
+  {
+    "name": "View All",
+    "canOnlyViewInvolvedSubmissions": false,
+    "canViewAllSubmitterGroups": true,
+    "canViewAllSubmissionTypes": true,
+    "canSubmitOnBehalfOfSelf": true,
+    "onBehalfOfGroups": [
+      {
+        "groupName": "Speaking Engagement Submitters",
+        "users": [
+          {
+            "name": "Allison Garey",
+            "emailAddress": "allison.garey@edwardjones.com",
+            "userName": "allison.garey"
+          },
+          {
+            "name": "Anand Nadgire",
+            "emailAddress": "AnandRajkumar.Nadgire@edwardjones.com",
+            "userName": "Anand.Nadgire"
+          },
+          {
+            "name": "Bill Consoli",
+            "emailAddress": "Bill.Consoli@edwardjones.com",
+            "userName": "Bill.Consoli"
+          },
+          {
+            "name": "Cara Wrenn",
+            "emailAddress": "cara.wrenn@edwardjones.com",
+            "userName": "cara.wrenn"
+          },
+          {
+            "name": "Christine Woznicki",
+            "emailAddress": "Christine.Woznicki@edwardjones.com",
+            "userName": "Christine.Woznicki"
+          },
+          {
+            "name": "Dami Adegboyega",
+            "emailAddress": "Dami.Adegboyega@edwardjones.com",
+            "userName": "Dami.Adegboyega"
+          },
+          {
+            "name": "David Hunter",
+            "emailAddress": "david.hunter@edwardjones.com",
+            "userName": "david.hunter"
+          },
+          {
+            "name": "Jignasha Solanki (P#)",
+            "emailAddress": "jignasha.solanki@edwardjones.com",
+            "userName": "jignasha.solanki"
+          },
+          {
+            "name": "Jignasha US Field Submitter",
+            "emailAddress": "jignasha.solanki@edwardjones.com",
+            "userName": "Test_USSubmitter1"
+          },
+          {
+            "name": "Kelly Recinos",
+            "emailAddress": "kelly.lukasik@edwardjones.com",
+            "userName": "kelly.recinos"
+          },
+          {
+            "name": "Lisa Monachella",
+            "emailAddress": "lisa.monachella@edwardjones.com",
+            "userName": "lisa.monachella"
+          },
+          {
+            "name": "Mary Lou Olton",
+            "emailAddress": "marylou.olton@edwardjones.com",
+            "userName": "marylou.olton"
+          },
+          {
+            "name": "Michael Davis (FA# 123)",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "mdavis"
+          },
+          {
+            "name": "Michael Moskowitz",
+            "emailAddress": "michael.moskowitz@edwardjones.com",
+            "userName": "michael.moskowitz"
+          },
+          {
+            "name": "Nathan Ganousis",
+            "emailAddress": "nathan.ganousis@edwardjones.com",
+            "userName": "nathan.ganousis"
+          },
+          {
+            "name": "Nicholas Pieri",
+            "emailAddress": "nicholas.pieri@edwardjones.com",
+            "userName": "nicholas.pieri"
+          },
+          {
+            "name": "Nicole Bascombe",
+            "emailAddress": "nicole.bascombe@edwardjones.com",
+            "userName": "nicole.bascombe"
+          },
+          {
+            "name": "Nijat Burjiyev",
+            "emailAddress": "nijat.burjiyev@edwardjones.com",
+            "userName": "nijat.burjiyev"
+          },
+          {
+            "name": "Preetham Parthasarathi",
+            "emailAddress": "preetham.parthasarathi@edwardjones.com",
+            "userName": "preetham.parthasarathi"
+          },
+          {
+            "name": "Shamarrie Wilson",
+            "emailAddress": "Shamarrie.Wilson@edwardjones.com",
+            "userName": "Shamarrie.Wilson"
+          },
+          {
+            "name": "Steve Fraser",
+            "emailAddress": "steve.fraser@edwardjones.com",
+            "userName": "steve.fraser"
+          },
+          {
+            "name": "Tapish Baronia",
+            "emailAddress": "Tapish.Baronia@edwardjones.com",
+            "userName": "Tapish.Baronia"
+          },
+          {
+            "name": "Test Submitter",
+            "emailAddress": "Julia.Meder@edwardjones.com",
+            "userName": "TestSubmitter_Julia"
+          },
+          {
+            "name": "Test Submitter",
+            "emailAddress": "Jasmine.Turner@edwardjones.com",
+            "userName": "TestSubmitter_Jasmine"
+          },
+          {
+            "name": "Test Bernie Gapinski",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "TEST_Gapinski,Bernie"
+          },
+          {
+            "name": "Test Doug Cahill",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "TEST_Cahill,Doug"
+          },
+          {
+            "name": "Test Kurt Stein (P126259)",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "TEST_Stein,Kurt"
+          },
+          {
+            "name": "Test Roxanne McFadden",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "TEST_McFadden,Roxanne"
+          },
+          {
+            "name": "Test Samantha Cassidy",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "TEST_Cassidy,Samantha"
+          },
+          {
+            "name": "Test_BOA1 Test_BOA1",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_BOA1"
+          },
+          {
+            "name": "Test_BOA2 Test_BOA2",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_BOA2"
+          },
+          {
+            "name": "Test_BOA4 Test_BOA4",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_BOA4"
+          },
+          {
+            "name": "Test_FA_RegionB Test_FA_RegionB",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_FA_RegionB"
+          },
+          {
+            "name": "Test_FA1 Test_FA1",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_FA1"
+          },
+          {
+            "name": "Test_FA11 Test_FA11",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_FA11"
+          },
+          {
+            "name": "Test_FA2 Test_FA2",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_FA2"
+          },
+          {
+            "name": "TestUser1 FA",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "TestUser1"
+          },
+          {
+            "name": "Thomas Moore",
+            "emailAddress": "thomas.moore@edwardjones.com",
+            "userName": "thomas.moore"
+          },
+          {
+            "name": "Tracy Liu",
+            "emailAddress": "tracy.liu@edwardjones.com",
+            "userName": "tracy.liu"
+          },
+          {
+            "name": "Trentin Diaz",
+            "emailAddress": "trentin.diaz@edwardjones.com",
+            "userName": "trentin.diaz"
+          },
+          {
+            "name": "William Lemon",
+            "emailAddress": "william.lemon@edwardjones.com",
+            "userName": "william.lemon"
+          },
+          {
+            "name": "Zachary Chervitz",
+            "emailAddress": "Zachary.Chervitz@edwardjones.com",
+            "userName": "Zachary.Chervitz"
+          }
+        ],
+        "active": true
+      }
+    ],
+    "canViewSubmissionsForGroups": [],
+    "canViewSubmissionTypes": [],
+    "active": true
+  },
+  {
+    "name": "Basic FA Example - Team 1 - BOA",
+    "canOnlyViewInvolvedSubmissions": false,
+    "canViewAllSubmitterGroups": false,
+    "canViewAllSubmissionTypes": false,
+    "canSubmitOnBehalfOfSelf": false,
+    "onBehalfOfGroups": [
+      {
+        "groupName": "FAs",
+        "users": [
+          {
+            "name": "Michael Davis (FA# 123)",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "mdavis"
+          }
+        ],
+        "active": true
+      }
+    ],
+    "canViewSubmissionsForGroups": [
+      {
+        "groupName": "Team 1 - FA",
+        "users": [
+          {
+            "name": "Michael Davis (FA# 123)",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "mdavis"
+          },
+          {
+            "name": "Test_FA1 Test_FA1",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_FA1"
+          },
+          {
+            "name": "Test_FA11 Test_FA11",
+            "emailAddress": "mdavis@redoakcompliance.com",
+            "userName": "Test_FA11"
+          }
+        ],
+        "active": true
+      }
+    ],
+    "canViewSubmissionTypes": [
+      {
+        "id": 6362,
+        "name": "Coffee Club Seminar Information Session (US Field)",
+        "active": true,
+        "initialState": "Draft",
+        "priority": 0,
+        "approvedStates": [
+          "Approved",
+          "Completed"
+        ],
+        "formats": [
+          "Installation Commander Approval Form"
+        ],
+        "description": "Coffee Club, Seminar, or Information Session Speaking Engagement Submissions",
+        "helpText": "<span id=\"isPasted\" style=\"font-size: 12pt;\">»<strong>Important</strong>: <span style=\"background-color: rgb(251, 229, 113);\">Approval is required <strong>before sending invitations and the event taking place</strong>.</span></span><br><br>Request to obtain Compliance approval for a speaking engagement/seminar event.<ul><li>To determine whether Speaking Engagement Approval is required or to read the instructions for completing the form, review <a href=\"http://ejprod.sharepoint.com/sites/JL-US-BR-Compliance-and-Regulatory-Site/SitePages/WEB558367.aspx\" target=\"_blank\" rel=\"noopener noreferrer\"></a><span style=\"color: rgb(36, 156, 184);\"><a href=\"http://ejprod.sharepoint.com/sites/JL-US-BR-Compliance-and-Regulatory-Site/SitePages/WEB558367.aspx\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Obtaining Compliance Approval for Marketing Events</strong></a></span>.</li><li>See Seminars: <a href=\"http://ejprod.sharepoint.com/sites/JL-US-BR-Seminars-and-Speaking-Engagements/SitePages/WEB063073.aspx\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Frequently Asked Questions</strong></a> for more information.</li><li style=\"font-weight: bold;\"><strong>Allow a minimum of 5 business days from the time your request is submitted for your request to be reviewed. <em>This does not guarantee approval will be provided</em>.</strong></li></ul><strong><span style=\"font-size: 12pt;\">»Are you or your team presenting with any other Financial Advisors?</span></strong><ul><li>If so, then ensure all presenters at Edward Jones are included within the On Behalf Of field so they can see this submission for their record. <strong><br></strong></li></ul>"
+      }
+    ],
+    "active": true
+  }
+]

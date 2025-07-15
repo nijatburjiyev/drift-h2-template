@@ -1,0 +1,194 @@
+[
+  {
+    "roles": [
+      "ADMIN"
+    ],
+    "active": true,
+    "groups": [
+      {
+        "active": true,
+        "groupName": "Red Oak Support"
+      },
+      {
+        "active": true,
+        "groupName": "US Field Speaking Engagements Submitters"
+      },
+      {
+        "active": true,
+        "groupName": "US Field Speaking Engagements CRE Team"
+      },
+      {
+        "active": true,
+        "groupName": "US Home Office Speaking Engagements Submitters"
+      },
+      {
+        "active": true,
+        "groupName": "US Home Office Speaking Engagements CRE Team"
+      }
+    ],
+    "locale": "en-",
+    "ssoOnly": false,
+    "lastName": "Berger",
+    "timeZone": "US/Pacific",
+    "userName": "aberger",
+    "firstName": "Aaron",
+    "adminRoles": [
+      "RULES",
+      "QUESTIONS",
+      "COMPANIES",
+      "LEXICONS",
+      "SITE_CONFIGURATION",
+      "VISIBILITY_PROFILES",
+      "SUBMISSION_TYPES",
+      "COMMENT_TEMPLATES",
+      "GROUPS",
+      "FIELDSETS",
+      "USERS"
+    ],
+    "landingPage": "DASHBOARD",
+    "emailAddress": "aberger@redoakcompliance.com",
+    "visibilityProfile": "View All",
+    "restrictByIpAddress": false,
+    "adminRolePermissions": [
+      [
+        "SITE_CONFIGURATION",
+        "EDIT"
+      ],
+      [
+        "USERS",
+        "EDIT"
+      ],
+      [
+        "GROUPS",
+        "EDIT"
+      ],
+      [
+        "QUESTIONS",
+        "EDIT"
+      ],
+      [
+        "FIELDSETS",
+        "EDIT"
+      ],
+      [
+        "SUBMISSION_TYPES",
+        "EDIT"
+      ],
+      [
+        "COMPANIES",
+        "EDIT"
+      ],
+      [
+        "VISIBILITY_PROFILES",
+        "EDIT"
+      ],
+      [
+        "LEXICONS",
+        "EDIT"
+      ],
+      [
+        "COMMENT_TEMPLATES",
+        "EDIT"
+      ],
+      [
+        "RULES",
+        "EDIT"
+      ],
+      [
+        "ENTITIES",
+        "NONE"
+      ]
+    ]
+  },
+  {
+    "roles": [],
+    "active": true,
+    "groups": [
+      {
+        "active": true,
+        "groupName": "Speaking Engagement Submitters"
+      },
+      {
+        "active": true,
+        "groupName": "CRE Team"
+      },
+      {
+        "active": true,
+        "groupName": "US Field Speaking Engagements Submitters"
+      },
+      {
+        "active": true,
+        "groupName": "US Field Speaking Engagements CRE Team"
+      },
+      {
+        "active": true,
+        "groupName": "US Home Office Speaking Engagements Submitters"
+      },
+      {
+        "active": true,
+        "groupName": "US Home Office Speaking Engagements CRE Team"
+      }
+    ],
+    "locale": "en-",
+    "ssoOnly": false,
+    "lastName": "Garey",
+    "timeZone": "US/Eastern",
+    "userName": "allison.garey",
+    "firstName": "Allison",
+    "adminRoles": [],
+    "landingPage": "DASHBOARD",
+    "emailAddress": "allison.garey@edwardjones.com",
+    "visibilityProfile": "View All",
+    "restrictByIpAddress": false,
+    "adminRolePermissions": [
+      [
+        "SITE_CONFIGURATION",
+        "NONE"
+      ],
+      [
+        "USERS",
+        "NONE"
+      ],
+      [
+        "GROUPS",
+        "NONE"
+      ],
+      [
+        "QUESTIONS",
+        "NONE"
+      ],
+      [
+        "FIELDSETS",
+        "NONE"
+      ],
+      [
+        "SUBMISSION_TYPES",
+        "NONE"
+      ],
+      [
+        "COMPANIES",
+        "NONE"
+      ],
+      [
+        "VISIBILITY_PROFILES",
+        "NONE"
+      ],
+      [
+        "LEXICONS",
+        "NONE"
+      ],
+      [
+        "COMMENT_TEMPLATES",
+        "NONE"
+      ],
+      [
+        "RULES",
+        "NONE"
+      ],
+      [
+        "ENTITIES",
+        "NONE"
+      ]
+    ]
+  }
+]
