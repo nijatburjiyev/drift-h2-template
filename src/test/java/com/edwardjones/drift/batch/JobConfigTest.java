@@ -2,6 +2,7 @@ package com.edwardjones.drift.batch;
 
 import com.edwardjones.drift.dto.*;
 import com.edwardjones.drift.infra.TokenService;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityManagerFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -26,6 +27,7 @@ class JobConfigTest {
     @Mock private EntityManagerFactory emf;
     @Mock private RestTemplate rest;
     @Mock private TokenService token;
+    @Mock private ObjectMapper objectMapper;
     @Mock private JobExecutionMonitor jobExecutionMonitor;
     @Mock private EmailSenderTasklet emailSenderTasklet;
 
@@ -33,7 +35,7 @@ class JobConfigTest {
 
     @Test
     void jpaItemWriter_CreatesCorrectWriter() {
-        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, jobExecutionMonitor, emailSenderTasklet);
+        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, objectMapper, jobExecutionMonitor, emailSenderTasklet);
 
         JpaItemWriter<Object> writer = jobConfig.jpaItemWriter();
 
@@ -44,7 +46,7 @@ class JobConfigTest {
 
     @Test
     void userReader_ConfiguresCorrectEndpoint() {
-        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, jobExecutionMonitor, emailSenderTasklet);
+        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, objectMapper, jobExecutionMonitor, emailSenderTasklet);
 
         ItemStreamReader<UserJson> reader = jobConfig.userReader();
 
@@ -53,7 +55,7 @@ class JobConfigTest {
 
     @Test
     void groupReader_ConfiguresCorrectEndpoint() {
-        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, jobExecutionMonitor, emailSenderTasklet);
+        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, objectMapper, jobExecutionMonitor, emailSenderTasklet);
 
         ItemStreamReader<GroupJson> reader = jobConfig.groupReader();
 
@@ -62,7 +64,7 @@ class JobConfigTest {
 
     @Test
     void submissionTypeReader_ConfiguresCorrectEndpoint() {
-        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, jobExecutionMonitor, emailSenderTasklet);
+        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, objectMapper, jobExecutionMonitor, emailSenderTasklet);
 
         ItemStreamReader<SubmissionTypeJson> reader = jobConfig.submissionTypeReader();
 
@@ -71,7 +73,7 @@ class JobConfigTest {
 
     @Test
     void importJob_ConfiguresCorrectStepOrder() {
-        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, jobExecutionMonitor, emailSenderTasklet);
+        jobConfig = new JobConfig(jobRepository, transactionManager, emf, rest, token, objectMapper, jobExecutionMonitor, emailSenderTasklet);
 
         Step emailStep = mock(Step.class);
         Step userStep = mock(Step.class);

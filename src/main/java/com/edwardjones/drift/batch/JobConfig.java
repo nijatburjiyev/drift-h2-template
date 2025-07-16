@@ -3,14 +3,15 @@ package com.edwardjones.drift.batch;
 import com.edwardjones.drift.domain.*;
 import com.edwardjones.drift.dto.*;
 import com.edwardjones.drift.infra.TokenService;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
+import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.core.job.builder.JobBuilder;
 import org.springframework.batch.core.repository.JobRepository;
 import org.springframework.batch.core.step.builder.StepBuilder;
-import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.ItemStreamReader;
 import org.springframework.batch.item.database.JpaItemWriter;
@@ -28,6 +29,7 @@ public class JobConfig {
     private final EntityManagerFactory emf;
     private final RestTemplate rest;
     private final TokenService token;
+    private final ObjectMapper objectMapper;
     private final JobExecutionMonitor jobExecutionMonitor;
     private final EmailSenderTasklet emailSenderTasklet;
 
@@ -42,27 +44,31 @@ public class JobConfig {
 
     /* ——— readers ——— */
     @Bean
+    @StepScope
     ItemStreamReader<UserJson> userReader() {
         return new RedOakStreamReader<>(UserJson.class,
-                "https://api.redoak.example.com/api/v1/users", rest, token);
+                "https://api.redoak.example.com/api/v1/users", rest, token, objectMapper);
     }
 
     @Bean
+    @StepScope
     ItemStreamReader<GroupJson> groupReader() {
         return new RedOakStreamReader<>(GroupJson.class,
-                "https://api.redoak.example.com/api/v1/groups", rest, token);
+                "https://api.redoak.example.com/api/v1/groups", rest, token, objectMapper);
     }
 
     @Bean
+    @StepScope
     ItemStreamReader<VisibilityProfileJson> vpReader() {
         return new RedOakStreamReader<>(VisibilityProfileJson.class,
-                "https://api.redoak.example.com/api/v1/visibilityProfiles", rest, token);
+                "https://api.redoak.example.com/api/v1/visibilityProfiles", rest, token, objectMapper);
     }
 
     @Bean
+    @StepScope
     ItemStreamReader<SubmissionTypeJson> submissionTypeReader() {
         return new RedOakStreamReader<>(SubmissionTypeJson.class,
-                "https://api.redoak.example.com/api/v1/submissionTypes", rest, token);
+                "https://api.redoak.example.com/api/v1/submissionTypes", rest, token, objectMapper);
     }
 
     /* ——— steps ——— */

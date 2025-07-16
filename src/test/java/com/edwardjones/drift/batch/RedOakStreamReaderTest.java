@@ -2,6 +2,7 @@ package com.edwardjones.drift.batch;
 
 import com.edwardjones.drift.dto.UserJson;
 import com.edwardjones.drift.infra.TokenService;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
@@ -18,6 +19,7 @@ class RedOakStreamReaderTest {
 
     @Mock private RestTemplate restTemplate;
     @Mock private TokenService tokenService;
+    @Mock private ObjectMapper objectMapper;
 
     @Test
     void redOakStreamReader_InitializesCorrectly() {
@@ -25,7 +27,8 @@ class RedOakStreamReaderTest {
             UserJson.class,
             "https://api.test.com/users",
             restTemplate,
-            tokenService
+            tokenService,
+            objectMapper
         );
 
         assertThat(reader).isNotNull();
@@ -37,7 +40,8 @@ class RedOakStreamReaderTest {
             UserJson.class,
             "https://api.test.com/users",
             restTemplate,
-            tokenService
+            tokenService,
+            objectMapper
         );
 
         assertThat(reader).isNotNull();
